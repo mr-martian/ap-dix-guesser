@@ -34,6 +34,8 @@ with open(args.src) as fin:
         count_ents(sec, regs)
         root.remove(sec)
     new_sec = ET.SubElement(root, 'section')
+    new_sec.attrib['id'] = 'main'
+    new_sec.attrib['type'] = 'standard'
     for parname in sorted(counts.keys()):
         ent = ET.SubElement(new_sec, 'e')
         regex = ET.SubElement(ent, 're')
