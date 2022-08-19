@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>ap-dix-guess</title>
+
+        <script src="jquery.js"></script>
+        <script src="guess.js"></script>
+    </head>
+    <body>
+        <div>
+            <textarea id="text"></textarea>
+            <button id="analyze">Analyze</button>
+        </div>
+        <div>
+            <div>
+                <span>Show top&nbsp;</span>
+                <input type="number" id="count" min="1" value="10"/>
+                <span>&nbsp;guessed words by&nbsp;</span>
+                <select id="method">
+                    <option value="surf" selected>surface form</option>
+                    <option value="lemma">lemma</option>
+                </select>
+                <select id="guess-only">
+                    <option value="yes" selected>excluding</option>
+                    <option value="no">including</option>
+                </select>
+                <span>&nbsp;known forms.</span>
+            </div>
+            <ol id="results">
+            </ol>
+        </div>
+    </body>
+</html>
