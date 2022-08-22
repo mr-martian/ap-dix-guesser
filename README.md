@@ -5,4 +5,4 @@ expand Apertium monodixen with guessers
 
 `reweight.py` is fairly close to what is described in https://github.com/apertium/lttoolbox/issues/16
 
-See [`test/weight/Makefile.am`](test/weight/Makefile.am) for usage example.
+See [`test/weight/Makefile`](test/weight/Makefile) for usage example.
