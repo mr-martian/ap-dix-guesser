@@ -1,0 +1,25 @@
+PATTERNS
+NounStem NounAffix
+VerbStem VerbAffix
+
+LEXICON NounStem
+potato
+sock
+ninja
+table
+
+LEXICON VerbStem
+destroy
+sing
+eat
+yodel
+table
+
+LEXICON NounAffix
+<n><sg>:
+<n><pl>:s
+
+LEXICON VerbAffix
+<vblex><inf>:
+<vblex><imp>:
+<vblex><pres>:
